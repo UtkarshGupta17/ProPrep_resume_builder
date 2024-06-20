@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-black text-white caret-primary-400;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply flex cursor-pointer items-center justify-center gap-3 rounded-md border border-gray-600 bg-gray-700 px-6 py-1.5 font-medium shadow-lg shadow-gray-900/25 hover:brightness-125 2xl:text-lg;
+
+        &-filled {
+            @extend .btn;
+            @apply border-primary-500 bg-primary-400 text-gray-900;
+        }
+    }
+
+    .card {
+        @apply rounded-md border border-gray-600 bg-gray-700/25 p-4 shadow-xl md:p-6 2xl:p-8;
+    }
+}
+
+@layer utilities {
+    .gradient {
+        @apply bg-gradient-to-r from-primary-400 to-green-400;
+    }
+
+    .text-gradient {
+        @extend .gradient;
+        @apply bg-clip-text text-transparent;
+    }
+
+    .text-gradient-blue {
+        @apply bg-gradient-to-r from-blue-400 to-blue-600;
+    }
+
+    .text-gradient-red {
+        @apply bg-gradient-to-r from-red-400 to-red-600;
+    }
+
+    .text-gradient-custom {
+        @apply bg-gradient-to-r from-purple-400 to-yellow-400;
+    }
+
+    .tabs {
+        &::after {
+            content: '';
+            @apply absolute bottom-0 left-0 h-2 w-full;
+        }
+    }
+
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+        @apply md:w-1.5;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-gray-700;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-primary-500 rounded-sm;
+
+        &:hover {
+            @apply bg-primary-500;
+        }
+    }
+}
