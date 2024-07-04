@@ -10,8 +10,8 @@ export default {
             { name: 'address', label: 'Address', placeholder: 'Ex: Vit Vellore' },
             { name: 'linkedin', label: 'Linked', placeholder: 'Ex: https://www.linkedin.com/in/utkarsh-gupta-296783217' },
             { name: 'github', label: 'Github', placeholder: 'Ex: https://github.com/UtkarshGupta17' },
-            { name: 'LeetCode', label: 'LeetCode', placeholder: 'Ex: https://leetcode.com/utkarsh1702/' },
             { name: 'portfolio', label: 'Portfolio', placeholder: 'Ex: utkarshgupta.com' },
+            { name: 'LeetCode', label: 'LeetCode', placeholder: 'Ex: https://leetcode.com/utkarsh1702/' },
         ],
     },
     summary: {
