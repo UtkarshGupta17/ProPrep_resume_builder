@@ -26,7 +26,7 @@ const Header = ({ data }) => {
         },
         {
             name: 'Leetcode',
-            value: data['Leetcode'],
+            value: data['leetcode'],
         },
         {
             name: 'Twitter',
