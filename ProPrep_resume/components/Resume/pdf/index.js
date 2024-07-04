@@ -29,10 +29,6 @@ const Header = ({ data }) => {
             value: data['portfolio'],
         },
         {
-            name: 'Twitter',
-            value: data['twitter'],
-        },
-        {
             name: 'Leetcode',
             value: data['leetcode'],
         },
