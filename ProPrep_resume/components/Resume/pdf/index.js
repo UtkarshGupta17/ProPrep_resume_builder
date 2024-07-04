@@ -25,8 +25,8 @@ const Header = ({ data }) => {
             value: data['github'],
         },
         {
-            name: 'Leetcode',
-            value: data['Leetcode'],
+            name: 'Portfolio',
+            value: data['portfolio'],
         },
         {
             name: 'Twitter',
