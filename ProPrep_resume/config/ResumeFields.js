@@ -11,7 +11,7 @@ export default {
             { name: 'linkedin', label: 'Linked', placeholder: 'Ex: https://www.linkedin.com/in/utkarsh-gupta-296783217' },
             { name: 'github', label: 'Github', placeholder: 'Ex: https://github.com/UtkarshGupta17' },
             { name: 'portfolio', label: 'Portfolio', placeholder: 'Ex: utkarshgupta.com' },
-            { name: 'LeetCode', label: 'LeetCode', placeholder: 'Ex: https://leetcode.com/utkarsh1702/' },
+            { name: 'LeetCode', label: 'leetCode', placeholder: 'Ex: https://leetcode.com/utkarsh1702/' },
         ],
     },
     summary: {
